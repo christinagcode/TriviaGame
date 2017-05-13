@@ -1,0 +1,21 @@
+body {
+	background-image: url(../images/background.png);
+}
+
+#container {
+	background-color: #fd834e;
+	margin-top: 100px;
+	margin-left: 100px;
+    width: 85%;
+    border: 10px;
+    border-radius: 5px;
+    border-color: #422939;
+    border-style: solid;
+    padding: 10px;
+    text-align: center;
+}
+
+#header {
+	font-family: 'Rammetto One', cursive;
+	color: white;
+}
