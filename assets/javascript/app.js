@@ -63,12 +63,15 @@ function decrement(){
 
 // Hides button
 $("#submit-button").hide();
+$("#animalcell").hide();
 
 // Click events on start
 $("#start-button").click(function(){
     $("#start-button").hide();
     $("#timer").show();
     $("#submit-button").show();
+    $("#animalcell").show();
+
     run();
     
     for (var i = 0; i < questions.length; i++) {
